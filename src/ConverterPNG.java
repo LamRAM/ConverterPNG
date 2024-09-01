@@ -6,6 +6,7 @@ import java.io.FileReader;
 public class ConverterPNG {
 
     public static void main(String[] args) {
+        System.out.println("TEST");
         try(
                 FileInputStream in = new FileInputStream("src/amongUs.png");
                 FileOutputStream out = new FileOutputStream("out.png");
